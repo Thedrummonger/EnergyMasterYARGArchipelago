@@ -26,6 +26,29 @@ This is an Archipelago implementation for the open source, plastic band rhythm g
 7. Collect the rest of the YARG Gems in the multiworld to fully unlock the goal song.
 7. Play that song to finish the seed!
 
+# Instrument Shuffle
+This mode shuffles the various instruments into the multiworld, and ties each song to one of said instruments.
+
+## Changes from normal gameplay:
+
++ The "AP Songs" catagory will be split into multiple categories, seperated by instrument.
++ The instrument named in the catagory will be listed in red if you are still missing it and will turn green when you recieve it.
++ You will always start with one song and it's connected instrument.
++ To send a check, you need to:
+  + Have the song from the multiworld.
+  + Have the instrument item from the multiworld.
+  + Have the required instrument in your band while playing. (Multiplayer does work for this!)
++ The above also apply to your goal song, in addition to any "YARG Gem" requirement.
+ 
+## Instrument Shuffle YAML Option Notes
+
++ You need at least 2 instruments selected to enable instrument shuffle.
++ If you do not select 2 or more, the mode will automatically disable at generation, regardless of instrument shuffle's setting.
++ Make sure your enabled setlists have a decent amount of songs that contain your instruments of choice.
++ Generation will check for at least 2 compatible songs for each instrument.
++ It is recommended to have more compatible songs to ensure successful generation.
+  + "Failed generation" in this context will be an option error before proper AP gen.
+
 # Current Notes
 "Star Power Bonus" items grant 25% Star Power upon collection\
 \
